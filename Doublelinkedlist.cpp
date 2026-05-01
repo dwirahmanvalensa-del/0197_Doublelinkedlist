@@ -251,4 +251,11 @@ int main()
         default:
             cout << "Invalid option\n";
         }
-        
+       cout << "\nPress Enter to continue...";
+        cin.ignore();
+        cin.get();
+        cout << endl;
+        system("clear"); // Gunakan "cls" jika di Windows
+    } while (choice != '6');
+}
+     
